@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lezzgo Learning</title>
+  <style>
+    :root {
+      --primary: #0e1a2b;
+      --secondary: #00c2ff;
+      --bg: #f7f9fc;
+      --text: #1e293b;
+      --accent: #38bdf8;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+      padding: 1rem;
+    }
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .section {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
+    }
+    .section h2 {
+      color: var(--secondary);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .section p {
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: var(--primary);
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Lezzgo Learning Logo"/>
+    <h1>Lezzgo Learning</h1>
+    <p>Empowering students, built by students. Free tutoring. Real impact.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#volunteer">Volunteer</a>
+    <a href="#tutoring">Tutoring</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section class="section" id="about">
+      <h2>About Us</h2>
+      <p>Founded during the 2021 pandemic, Lezzgo Learning is a youth-powered nonprofit offering free academic help and college guidance for all students. It’s grassroots. It’s powerful. It’s for students, by students.</p>
+    </section>
+
+    <section class="section" id="mission">
+      <h2>Our Mission</h2>
+      <p>Our mission is to build bridges between students and their future by offering free tutoring, mentorship, and real-world tools. Our vision? Equal opportunity learning—everywhere.</p>
+    </section>
+
+    <section class="section" id="volunteer">
+      <h2>Become a Volunteer</h2>
+      <p>Students helping students is our core. If you're passionate about teaching, organizing, designing or outreach, you can be part of our team. <a href="#">Sign up to volunteer</a>.</p>
+    </section>
+
+    <section class="section" id="tutoring">
+      <h2>Book a Tutoring Session</h2>
+      <p>We offer free one-on-one sessions in math, science, writing, and more. <a href="https://calendly.com/YOUR-CALENDLY-USERNAME">Schedule a session here.</a></p>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:lezzgolearn@outlook.com">lezzgolearn@outlook.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/lezzgolearnin" target="_blank">@lezzgolearnin</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Lezzgo Learning. All rights reserved.
+  </footer>
+</body>
+</html>
